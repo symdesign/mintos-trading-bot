@@ -1,0 +1,30 @@
+{
+  "name": "mintos-discount-strategy",
+  "version": "1.0.0",
+  "description": "A bot that buys discounted loans and immediately offers them for sale again.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mintos",
+    "p2p",
+    "trade",
+    "strategy"
+  ],
+  "author": "Friedrich Schultheiss",
+  "license": "ISC",
+  "dependencies": {
+    "csv-reader": "^1.0.3",
+    "csv-writer": "^1.5.0",
+    "fs": "0.0.1-security",
+    "minimist": "^1.2.0",
+    "puppeteer": "^1.18.0",
+    "round-to": "^4.0.0"
+  },
+  "devDependencies": {
+    "axios": "^0.19.0",
+    "puppeteer-extra-plugin-recaptcha": "^3.0.4",
+    "qs": "^6.8.0"
+  }
+}
