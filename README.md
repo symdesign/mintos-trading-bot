@@ -1,10 +1,16 @@
 # mintos
 
-## Install
+## Installation
 
-`cd` to the Bot directory and run `npm install` to get all necessary dependencies.
+Open the terminal and `cd` to the Bot directory and run `npm install` to get all necessary dependencies.
 
+## Configuration
 
+Make a copy `sample-settings.js` and name it `settings.js`. There you enter your Mintos credentials.
+
+## Start
+
+To start the bot open the terminal again and run `node trade.js`.
 
 ## Rasbian Requirements
 To get the bot working on RaspberryPi you need to install a couple of things before.
@@ -50,7 +56,7 @@ Run `crontab -e` to configure it.
 
 ## Strategy
 
-Your strategies may change according to present market conditions. Therefore you can create multiple strategy files and switch them on or off within your settings file.
+Your strategies may change according to present market conditions. Therefore, you can create multiple strategy files and switch them on or off within your settings file.
 
 I recommend basing your strategy on lender groups that run their business stable. Qualitiative Lender Groups can be found at [ExploreP2P](https://explorep2p.com/mintos-lender-ratings/).
 
