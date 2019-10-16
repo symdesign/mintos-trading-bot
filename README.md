@@ -1,4 +1,7 @@
-# mintos
+# Mintos Trading Bot
+
+| **This project is no longer maintained. Learn more about it on [Medium](https://medium.com/@symdesign/how-my-open-source-bot-made-me-a-21-8-net-annual-return-on-mintos-5077376abc53).** |
+| --- |
 
 ## Installation
 
