@@ -1,0 +1,35 @@
+# Sensitive Data
+cookies.txt
+settings.js
+credentials.js
+*.csv
+strategy.js
+my-strategy.js
+friedrichs-strategy.js
+
+# Dependency directories
+node_modules/
+*.deb
+
+# Optional npm cache directory
+.npm
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+*.lnk
